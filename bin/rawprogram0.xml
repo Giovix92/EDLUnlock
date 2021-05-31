@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<data>
+  <program SECTOR_SIZE_IN_BYTES="512" file_sector_offset="0" filename="devinfo.img" label="devinfo" num_partition_sectors="2048" physical_partition_number="0" size_in_KB="1024.0" sparse="false" start_byte_hex="0x24200000L" start_sector="1183744"/>
+</data>
