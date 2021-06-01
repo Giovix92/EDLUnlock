@@ -10,6 +10,19 @@ Supported platforms:
 -------
 - Windows only, for now.
 
+Supported devices:
+-------
+- Xiaomi Mi A1 (msm8953) (used as a working example too)
+
+*Should* also work on:
+------
+- MSM8953 devices
+- MSM8952 devices
+- MSM8998 devices
+- ...and every device manufactured before 2017, having a MSM89xx CPU. <br>
+**BE CAREFUL!** This list has not been tested. It should work since [those platforms uses the same exploit](https://alephsecurity.com/2018/01/22/qualcomm-edl-1/) as the one mentioned as an example. <br>
+Plus, the `bin` folder only contains MSM8953 *patched* mbn file. You'll need a working .mbn/.elf file (*patched, hehe*) in order to use the tool correctly, at least on other platforms.
+
 Usage:
 -------
 - Double click on `EDLUnlock.cmd`, then follow the instructions. <br>
